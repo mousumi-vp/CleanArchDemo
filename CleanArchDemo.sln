@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{BB777BCB-CA73-4AB1-B369-CDA046271E1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArc.Domain", "CleanArc.Domain\CleanArc.Domain.csproj", "{AEA926AC-D057-4580-BC87-90B5E840B42F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain", "CleanArc.Domain\CleanArch.Domain.csproj", "{AEA926AC-D057-4580-BC87-90B5E840B42F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{2F29F848-055C-4E30-9E30-7F0140FF7E7C}"
 EndProject
