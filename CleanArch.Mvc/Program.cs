@@ -1,5 +1,6 @@
 using CleanArch.Infra.Data.Context;
 using CleanArch.Infra.IoC;
+using CleanArch.Mvc.Configurations;
 using CleanArch.Mvc.Data;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -23,6 +24,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 DependencyContainer.RegisterServices(builder.Services);
 builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+builder.Services.RegisterAutoMapper();
 
 var app = builder.Build();
 
